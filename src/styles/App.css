@@ -1,4 +1,5 @@
-main{
+/* Home */
+main.home{
 	min-height: 100vh;
 	min-width: 100vw;
 	padding: 0;
@@ -8,7 +9,7 @@ main{
 	justify-content: center;
 	align-items: center;
 }
-main .center-piece #logo{
+main.home .center-piece #logo{
 	height: 13em;
 	width: 13em;
 	user-select: none;
@@ -18,23 +19,23 @@ main .center-piece #logo{
 	border-radius: 4px;
 	transition: transform 0.2s ease;
 }
-main .center-piece #logo:hover{
+main.home .center-piece #logo:hover{
 	transform: translateY(-0.5em);
 }
-main .center-piece{
+main.home .center-piece{
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
-main .center-piece h1{
+main.home .center-piece h1{
 	font-size: 3em;
 	letter-spacing: 0.1em;
 	margin-left: -0.5em;
 }
-main .sub-title{
+main.home .sub-title{
 	font-size: 1.3em;
 }
-main .btn{
+main.home .btn{
 	border-radius: 4px;
 	outline: none;
 	padding: 0.7em;
@@ -43,10 +44,16 @@ main .btn{
 	margin: 0.5em;
 	user-select: none;
 }
-main button.classic{
+main.home button.classic{
 	color: #fff;
 	background-color: var(--primary);
 	border: 2px solid var(--primary);
+	filter: brightness(1.1);
+	transition: filter 0.2s ease;
+}
+
+main.home button.classic:hover{
+	filter: brightness(1);
 }
 @keyframes fadeIn{
 	from{
@@ -61,7 +68,3 @@ main button.classic{
 	animation: 0.8s fadeIn ease forwards;
 	animation-delay: 0.3s;
 }
-/* main button.classic:hover{
-	background-color: var(--dark);
-	border: 2px solid var(--dark);
-} */
