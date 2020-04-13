@@ -1,3 +1,11 @@
+:root{
+	--dark: #7B1FA2;
+	--light: #E1BEE7;
+	--primary: #9C27B0;
+	--accent: #FF5252;
+	--black: #212121;
+	--faded: #757575;
+}
 html {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -19,7 +27,7 @@ body{
 	-webkit-box-sizing: inherit;
 	-moz-box-sizing: inherit;
 	box-sizing: inherit;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Quicksand', sans-serif;
 }
 ::selection{
 	background-color: silver;
