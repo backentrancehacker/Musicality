@@ -13,7 +13,13 @@ main .center-piece #logo{
 	width: 13em;
 	user-select: none;
 	margin: 0;
+	margin-left: -4em;
 	padding: 0;
+	border-radius: 4px;
+	transition: transform 0.2s ease;
+}
+main .center-piece #logo:hover{
+	transform: translateY(-0.5em);
 }
 main .center-piece{
 	display: flex;
@@ -34,7 +40,28 @@ main .btn{
 	padding: 0.7em;
 	font-size: 1.3em;
 	cursor: pointer;
+	margin: 0.5em;
+	user-select: none;
 }
-main .classic-btn{
+main button.classic{
+	color: #fff;
 	background-color: var(--primary);
+	border: 2px solid var(--primary);
 }
+@keyframes fadeIn{
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+.fadeIn{
+	opacity: 0;
+	animation: 0.8s fadeIn ease forwards;
+	animation-delay: 0.3s;
+}
+/* main button.classic:hover{
+	background-color: var(--dark);
+	border: 2px solid var(--dark);
+} */
