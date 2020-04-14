@@ -14,32 +14,32 @@ main.about header{
 	flex-direction: row;
 	flex-wrap: nowrap;
     align-items: center;
- }
- main.about header img{
+}
+main.about header img{
     height: 5em;
     width: auto;
     margin: 0;
     transition: transform 0.2s ease;
     cursor: pointer;
- }
- main.about header img:hover{
+}
+main.about header img:hover{
     transform: translateY(-0.5em);
- }
- main.about .content{
+}
+main.about .content{
     padding: 2em 7vw;
     display: flex;
     flex-direction: column;
     user-select: none;
     word-break: break-word;
- }
- .content h2{
-    font-size: 1.5em;
-    margin: 0;
- }
- .content p{
+}
+.content h2{
+	font-size: 1.5em;
+	margin: 0;
+}
+.content p{
     margin-top: 0.5em;
     font-size: 1.2em;
- }
+}
 .music {
 	position: fixed;
 	width: 600px;
@@ -68,10 +68,6 @@ main.about header{
         opacity: 1;
     }
 }
-a, a:visited{
-    color: dodgerblue;
-
-}
 h2.to-home{
     position: fixed;
     left: 1em;
@@ -84,5 +80,12 @@ h2.to-home{
     cursor: pointer;
 }
 h2.to-home:hover{
+	text-decoration: underline;
+}
+a, a:visited{
+    color: dodgerblue;
+	text-decoration: none;
+}
+a:hover{
 	text-decoration: underline;
 }

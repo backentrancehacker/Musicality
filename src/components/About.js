@@ -56,7 +56,9 @@ async function explode(x, y){
 function random(min, max) {
 	return Math.floor(Math.random() * (max + 1)) + min;
 }
-
+const Outside = (props) => {
+	return <a href={props.href} target="blank">{props.name}</a>
+}
 class About extends Component{
 	render(){
 		return (
@@ -70,7 +72,9 @@ class About extends Component{
 				</header>
 				<div className="content fadeIn">
 					<h2>What's this?</h2>
-					<p>Musicality is a project produced by Ethan, Kevin, Joe, Nathan and Ryan during NuevaHacks, a week long hackathon. </p>
+					<p>Musicality is a project produced by Nathan, Ethan, Kevin, Joe, and Ryan during <Outside name="NuevaHacks" href="https://www.nuevahacks.com" />. Our team really struggled to come up with a viable solution and problem to solve for this Hackathon. We finally settled with a music generation application, using the power of artificial intelligence.</p>
+					<h2>Built with...</h2>
+					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript (no JQuery), CSS3, and JSX (technically just HTML). We used Netlify to host our React app. </p>
 				</div>
         	</main>
 			<Link to="/">
