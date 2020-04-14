@@ -74,7 +74,9 @@ class About extends Component{
 					<h2>What's this?</h2>
 					<p>Musicality is a project produced by Nathan, Ethan, Kevin, Joe, and Ryan during <Outside name="NuevaHacks" href="https://www.nuevahacks.com" />. Our team really struggled to come up with a viable solution and problem to solve for this Hackathon. We finally settled with a music generation application, using the power of artificial intelligence.</p>
 					<h2>Built with...</h2>
-					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript (no JQuery), CSS3, and JSX (technically just HTML). We used Netlify to host our React app. </p>
+					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript, CSS3, and JSX (basically just HTML). We used Netlify to host our React app, and the primary text editors used </p>
+					<h2>Get Started</h2>
+					<p>Musicality is a very simple application that requires no sign up of any sort. Simple clicking the Get Started button will bring you to a self explanator editor with a giant "Generate" button (click it). Have fun with the AI!</p>
 				</div>
         	</main>
 			<Link to="/">
