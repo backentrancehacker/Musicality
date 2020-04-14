@@ -8,6 +8,7 @@ import {
 import './styles/global.css';
 
 import Home from './components/Home';
+import About from './components/About';
 
 class App extends Component {
 	render(){
@@ -18,7 +19,7 @@ class App extends Component {
 						<Home />
 					</Route>
 					<Route path="/about">
-
+						<About />
 					</Route>
 				</Switch>
 			</Router>

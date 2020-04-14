@@ -55,16 +55,3 @@ main.home button.classic{
 main.home button.classic:hover{
 	filter: brightness(1);
 }
-@keyframes fadeIn{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
-}
-.fadeIn{
-	opacity: 0;
-	animation: 0.8s fadeIn ease forwards;
-	animation-delay: 0.3s;
-}
