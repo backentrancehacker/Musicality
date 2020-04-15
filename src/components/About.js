@@ -72,16 +72,16 @@ class About extends Component{
 				</header>
 				<div className="content fadeIn">
 					<h2>What's this?</h2>
-					<p>Musicality is a project produced by Nathan, Ethan, Kevin, Joe, and Ryan during <Outside name="NuevaHacks" href="https://www.nuevahacks.com" />. Our team really struggled to come up with a viable solution and problem to solve for this Hackathon. We finally settled with a music generation application, using the power of artificial intelligence.</p>
+					<p>Musicality is a project produced by Nathan, Ethan, Kevin, Joe, and Ryan during <Outside name="NuevaHacks" href="https://www.nuevahacks.com" />. Our team really struggled to come up with a viable solution and problem to solve for this Hackathon. As we conversed more, we noticed that most of us shared musical backgrounds. We finally settled with a music generation sysem that used the power of artificial intelligence. Maybe others will find our project inspirational, whether it be for music or hackathons.</p>
 					<h2>Built with...</h2>
-					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript, CSS3, and JSX (basically just HTML). We used Netlify to host our React app, and the primary text editors used </p>
+					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript, CSS3, and JSX (basically just HTML). Musicality is currently hosted by Netlify.</p>
 					<h2>Get Started</h2>
-					<p>Musicality is a very simple application that requires no sign up of any sort. Simple clicking the Get Started button will bring you to a self explanator editor with a giant "Generate" button (click it). Have fun with the AI!</p>
+					<p>Musicality is a very simple application that requires no sign up or accounts. Simply clicking the Get Started button on the home page will bring you to an intuitive editor. Click the giant "Generate" button on the left to have fun with the AI!</p>
+					<Link to="/">
+						<h2 className="to-home">Go Home</h2>
+					</Link>
 				</div>
         	</main>
-			<Link to="/">
-            	<h2 className="to-home">Home</h2>
-            </Link>
         </>
         )
 	}

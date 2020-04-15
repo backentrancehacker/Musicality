@@ -68,10 +68,14 @@ main.about .content{
         opacity: 1;
     }
 }
+a, a:visited{
+    color: dodgerblue;
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
 h2.to-home{
-    position: fixed;
-    left: 1em;
-    bottom: 1em;
     color: black;
     padding: 0;
     margin: 0;
@@ -80,12 +84,6 @@ h2.to-home{
     cursor: pointer;
 }
 h2.to-home:hover{
-	text-decoration: underline;
-}
-a, a:visited{
-    color: dodgerblue;
-	text-decoration: none;
-}
-a:hover{
+    color: black;
 	text-decoration: underline;
 }
