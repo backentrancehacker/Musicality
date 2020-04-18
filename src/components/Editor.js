@@ -2,7 +2,6 @@ import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../images/MusicalityLogo.svg';
 import '../styles/Editor.css';
-import Split from 'react-split';
 
 const Header = () => {
   return (
