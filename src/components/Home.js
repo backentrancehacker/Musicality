@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
-import logo from '../images/MusicalityLogo.png';
+import logo from '../images/MusicalityLogo.svg';
 import Question from './Question';
 import '../styles/Home.css';
 
@@ -15,7 +15,9 @@ class Home extends Component {
 				</div>
 				<p className="sub-title">Generate music because AI can.</p>
 				<div className="center-piece">
-					<button className="classic btn">Get Started</button>
+					<Link to="/editor">
+            <button className="classic btn">Get Started</button>
+          </Link>
 				</div>
 			</main>
 			<Link to="/about">

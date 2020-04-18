@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import '../styles/About.css';
-import logo from '../images/MusicalityLogo.png';
+import logo from '../images/MusicalityLogo.svg';
 
 function wait(ms){
 	return new Promise((resolve, reject) => {
@@ -72,11 +72,11 @@ class About extends Component{
 				</header>
 				<div className="content fadeIn">
 					<h2>What's this?</h2>
-					<p>Musicality is a project produced by Nathan, Ethan, Kevin, Joe, and Ryan during <Outside name="NuevaHacks" href="https://www.nuevahacks.com" />. Our team really struggled to come up with a viable solution and problem to solve for this Hackathon. As we conversed more, we noticed that most of us shared musical backgrounds. We finally settled with a music generation sysem that used the power of artificial intelligence. Maybe others will find our project inspirational, whether it be for music or hackathons.</p>
+					<p>Musicality is a project produced by Nathan, Ethan, Kevin, Joe, and Ryan during <Outside name="NuevaHacks" href="https://www.nuevahacks.com" />. The project goal aims to convert a drawing of a piece into music. Our team really struggled to come up with a viable solution and problem to solve for this Hackathon. As we conversed more, we noticed that most of us shared musical backgrounds. We finally settled with a music generation sysem that used the power of artificial intelligence. Maybe others will find our project inspirational, whether it be for music or hackathons.</p>
 					<h2>Built with...</h2>
-					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript, CSS3, and JSX (basically just HTML). Musicality is currently hosted by Netlify.</p>
+					<p>Besides love, Musicality's main dependencies include <Outside name="React" href="https://reactjs.org"/> and <Outside name="Tensorflow" href="https://www.tensorflow.org"/>. The general languages used to construct the app include Vanilla Javascript, CSS3, and JSX (basically just HTML). Musicality was developed on top of Repl.it, the online browser IDE.</p>
 					<h2>Get Started</h2>
-					<p>Musicality is a very simple application that requires no sign up or accounts. Simply clicking the Get Started button on the home page will bring you to an intuitive editor. Click the giant "Generate" button on the left to have fun with the AI!</p>
+					<p>Musicality is a very simple application that requires no sign up or accounts. Simply clicking the Get Started button on the home page will bring you to an intuitive editor. On the editor you can create new "Records", or drawings. There are three tools above the editor, the eraser, pen, and random color. After creating a new Record you can use these tools to make a drawing. From there, you can press the "generate" option in the upper left hand corner, where you can configure and create some music. </p>
 					<Link to="/">
 						<h2 className="to-home">Go Home</h2>
 					</Link>

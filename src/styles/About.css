@@ -9,16 +9,16 @@ main.about{
 main.about header{
 	width: 100%;
 	user-select: none;
-	padding: 1em 0;
+	padding: 1em 0.5em;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-    align-items: center;
+  align-items: center;
 }
 main.about header img{
     height: 5em;
     width: auto;
-    margin: 0;
+    margin: 0 0.5em;
     transition: transform 0.2s ease;
     cursor: pointer;
 }
